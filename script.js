@@ -6,7 +6,7 @@ function stringChop(str, size) {
     arr.push(str.slice(i, i + size));
     i += size;
   }
- console.log(arr)
+ return(arr)
 }
 
 // Do not change the code below
